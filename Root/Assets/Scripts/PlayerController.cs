@@ -236,6 +236,27 @@ public class PlayerController : MonoBehaviour
     }
 
     //KillPlayer()
+    public void KillPlayer()
+    {
+        player_health--;
+        if (player_health == 2)
+        {
+            player_animator.SetTrigger("Hurt");
+            life_three.SetActive(false);
+        }
+        else if (player_health == 1)
+        {
+            player_animator.SetTrigger("Hurt");
+            life_two.SetActive(false);
+        }
+        else
+        {
+            player_animator.SetTrigger("Death");
+            life_one.SetActive(false);
+            player_gameover.GameOver();
+            this.enabled = false;
+        }
+    }
 
     private void FixedUpdate()
     {
