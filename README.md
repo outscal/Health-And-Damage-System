@@ -1,6 +1,15 @@
-# Super-Jumper-2D
-This is a fun 2D project that shows how health system can be used in games and player can be damaged
+# Problem Statement
 
-First open the Problem-Statement branch from the branch dropdown of this repository. Use the assets and the corresponding course to design the solution on your own. 
+A readymade project is available for you in this branch with all the basic player movement and patrolling enemies.
 
-The solution is provided in the Solution-Statement branch, I would strongly suggest you to make the solution yourself first.
+Then what do you do? 
+
+![](https://media.giphy.com/media/xUOxf0EniRe3ll2u8U/giphy.gif)
+
+Of course, as the name suggests, you have to create the solution for this project which is to add Health and damage system to the project.
+
+![](https://media.giphy.com/media/eLujANBginsZl8PZZL/giphy.gif)
+
+You are given all the assets that could be required to develop this project further.
+
+Once you have done it, you can have a look at the Solution-Statement branch for alternative solution.
